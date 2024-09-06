@@ -18,6 +18,7 @@ const Navbar = () => {
     alignItems: "center",
     padding: "10px",
     width: "100%",
+    minWidth: "600px",
   };
 
   const linkStyle = {
@@ -35,6 +36,9 @@ const Navbar = () => {
 
       {isAuthenticated && (
         <>
+          <Link to="/products/create" style={linkStyle}>
+            Nuevo producto
+          </Link>
           <Link to="/products" style={linkStyle}>
             Productos
           </Link>
