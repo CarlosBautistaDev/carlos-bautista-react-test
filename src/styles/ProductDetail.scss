@@ -1,0 +1,24 @@
+.product-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #ffffff;
+ 
+
+  img {
+    max-width: 300px;
+    height: auto;
+  }
+
+  p {
+    color: #e4e4e4;
+    font-size: 1.2em;
+  }
+}
+.products-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 70px;
+}

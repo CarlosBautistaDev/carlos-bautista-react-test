@@ -1,0 +1,21 @@
+.users-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .user-card {
+    width: calc(33.3333% - 20px);
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .user-card p {
+    margin: 0 0 10px;
+  }
+  
+  .user-card button {
+    cursor: pointer;
+  }
