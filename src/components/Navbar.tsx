@@ -3,7 +3,7 @@ import { useStore } from "../state/store";
 
 const Navbar = () => {
   const { logout } = useStore();
-  const isAuthenticated = !!localStorage.getItem("user"); // Verifica si existe 'user' en el almacenamiento local
+  const isAuthenticated = !!localStorage.getItem("user"); 
 
   console.log(isAuthenticated);
   const logoutfull = () => {
