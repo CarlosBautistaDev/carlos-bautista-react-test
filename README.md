@@ -1,6 +1,6 @@
 # Proyecto React
 
-Este proyecto fue creado con [Create React App](https://github.com/facebook/create-react-app) y TypeScript.
+Este proyecto fue creado con [Vite](https://vitejs.dev/) y TypeScript.
 
 ## Estructura del proyecto
 
@@ -15,7 +15,7 @@ El proyecto implementa hash routing con rutas públicas y protegidas.
 Primero, clona el repositorio en tu máquina local.
 
 ```bash
-git clone https://github.com/usuario/proyecto.git
+git clone https://github.com/CarlosBautistaDev/carlos-bautista-react-test.git
 
 ## Navega al directorio del proyecto.
 cd carlos-bautista-react-test
@@ -31,6 +31,7 @@ La página se recargará si haces modificaciones. También verás cualquier erro
 
 ## Instrucciones para hacer un build a producción
 Para hacer un build a producción, usa:
+
 npm run build
 
 Esto crea una versión de producción de la aplicación en la carpeta build. React estará correctamente enlazado en modo producción y optimizará la construcción para obtener el mejor rendimiento.
